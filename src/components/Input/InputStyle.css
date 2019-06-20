@@ -1,0 +1,9 @@
+.button-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 20%;
+  /* grid-gap: 4px; */
+  /* grid-template-rows: minmax(min-content, max-content) */
+  /* grid-template-rows: fit-content(20%); */
+}
